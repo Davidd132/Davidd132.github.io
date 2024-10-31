@@ -1,0 +1,579 @@
+<html>
+
+<head>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    .jav{
+        font-size:40px;
+        margin-top:-440px;
+        margin-bottom:385px;
+        margin-left:400px;
+        font-weight: bold;
+        
+    }
+    .google{
+        
+        margin-top:-450px;
+        width:80px;
+        height: 80px;
+        margin-left: ;
+    }
+ 
+    .man{
+        width:1000px;
+        margin-top: -10px;
+        margin-left:-10px;
+        
+    }
+    
+    .input{
+        height:80px;
+        width:590px;
+    font-size:50;
+    font-weight:bold;
+    margin-top:-510px;
+    margin-left:380px;
+    background-color: white;
+    border-radius: 20px;
+            }
+    
+    .h{
+        margin-top:2px;
+    }
+    .we{
+        margin-top:280px;
+        width:480px;
+    }
+    
+    .shoe{
+        margin-top:20px;
+        font-weight:bold;
+        font-family:Arial;
+        font-size:38px;
+        
+text-decoration: underline;
+    }
+    .fs6{
+        font-size:25px;
+    }
+    .ifa13{
+        font-size:30px;
+    }
+    .ff{
+        color:green;
+        font-size:30px;
+        font-weight:bold;
+    }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .left,
+        .right {
+            width: 40%;
+        }
+
+        .Rs {
+            font-size: 50px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        .bttn2 {
+            background-color: white;
+            margin-top: 60px;
+            color: black;
+            font-family: Arial;
+            height: 90px;
+            width: 360px;
+            border-radius: 160px;
+            font-size: 33px;
+            font-weight: bold;
+            border: double;
+            margin-top: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+        }
+.bttn3 {
+  background-color: white;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial;
+  height: 90px;
+  width: 360px;
+  border-radius: 160px;
+  font-size: 33px;
+  font-weight: bold;
+  border: double;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+.abcde {
+  background-color: white;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial;
+  height: 90px;
+  width: 360px;
+  border-radius: 160px;
+  font-size: 33px;
+  font-weight: bold;
+  border: double;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.qwert {
+  background-color: white;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial;
+  height: 90px;
+  width: 360px;
+  border-radius: 160px;
+  font-size: 33px;
+  font-weight: bold;
+  border: double;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+        .check {
+            font-size: 30px;
+            width: 50px;
+        }
+
+        .rating {
+            color: orange;
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .football {
+            height: 500px;
+            width:500px;
+            margin-bottom: 60px;
+            margin-top:100px;
+        }
+
+        .product {
+            color: black;
+            font-weight: bold;
+            font-family: Arial;
+            margin-bottom: 0px;
+            font-size: 35px;
+text-decoration: underline;
+        }
+
+        .bttn {
+            background-color: orange;
+            margin-top: 60px;
+            color: black;
+            font-family: Arial;
+            height: 90px;
+            width: 360px;
+            border-radius: 160px;
+            font-size: 33px;
+            font-weight: bold;
+            border: double;
+            margin-top: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .checked {
+            color: orange;
+            width: 50px;
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+ .scroll-container {
+   display: flex;
+   overflow-x: auto;
+   scroll-behavior: smooth;
+   white-space: nowrap;
+   padding: 30px;
+   gap: 30px;
+   max-width: 100%;
+ }
+
+ /* Each product card */
+ .product-card {
+   flex: 0 0 auto;
+   width: 450px;
+   height: 580px;
+   text-align: center;
+   background-color: #f5f5f5;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   font-weight:bold;
+   font-family: arial;
+   font-size:20px;
+   color:black;
+ }
+
+ /* Images in the product cards */
+ .product-card img {
+   width: 100%;
+   height: 500px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ }
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+    
+        <img class ="man"src="
+https://i.imgur.com/uNIjE9e.png
+        "></img></div>
+   <div class="banner">
+<input class="input"
+     placeholder="Search...                            &#x1F50D;"></div>
+     
+     
+   
+     
+<hr class="h">
+    <div class="container">
+        <!-- Left side for the image -->
+        <div class="left">
+          
+<a href="openProduct.html">
+          <button style="border:none;
+          background:none;">
+            <img class="football" src="
+https://i.imgur.com/ZDwxO6U.jpeg
+            "></button></a>
+        </div>
+
+        <!-- Right side for the product details -->
+
+<a href="openProduct.html">
+        <div class="right">
+            <h1 class="product">NIVIA BEST QUALITY</h1>
+            </a>
+            
+            <p class="ifa13">
+• 
+                Ideal for Aged 13-19</p>
+            <p class="fs6">
+• 
+                Football - Size: 6</p>
+            <p><h2>(Pack of 1, White, Black)</h2></p>
+
+            <div>
+                <h3 class="rating">Rating:</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star check"></span>
+                <span class="ff">+ 4</span>
+            </div>
+
+            <div>
+                <h2 class="Rs">Rs.1,849</h2>
+            </div>
+
+            <div class="quantity">
+                <select style="width:150px; height:80px; color:black; font-family: 'Arial';font-size:45px;">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div>
+<a href="destination.html">
+                <button class="bttn">Buy Now</button></a>
+                <button onclick="addToCart()" class="bttn2">Add to Cart</button>
+            </div>
+        </div>
+    </div></button>
+<hr class="hr">
+<div class="container">
+        <div class="rt">
+                    <img class="we" src="
+https://i.imgur.com/VnCXKGI.png
+                    ">
+                </div>
+                
+  <div class="right">
+             <h1 class="shoe">
+NIKE AIR MAX 1 LX
+                 
+             </h1>
+             <p class="ifa13">
+ • 
+Light orewood brown/obsidian/sail
+             </p>
+             <p class="fs6">
+ • 
+                 Size: 8,9</p>
+             <p><h2>• Traditional lacing • Padded collar • Foam midsole
+             </h2></p>
+ 
+             <div>
+                 <h3 class="rating">Rating:</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star check"></span>
+                 <span class="ff">+ 4</span>
+             </div>
+ 
+             <div>
+                 <h2 class="Rs">Rs.7,449</h2>
+             </div>
+ 
+             <div class="quantity">
+                 <select style="width:150px; height:80px; color:black; font-family: 'Arial';font-size:45px;">
+                     <option selected value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                 </select>
+             </div>
+ 
+             <div>
+<a href="destination.html">
+                 <button onclick="alertt()" class="bttn">Buy Now</button></a>
+
+                 <button onclick="addToCartt
+                 ()" class="bttn3">Add to Cart</button>
+             </div>
+         </div>
+     </div>
+ <hr class="hr">
+ 
+
+<!-- Scrollable container for product cards -->
+<div class="scroll-container" id="scroll-container">
+  <div class="product-card">
+    <img src="
+https://i.imgur.com/mRZytWf.jpeg
+    " alt="Product 1">
+    <p>hp victus laptop</p>
+  </div>
+  <div class="product-card">
+    <img src="
+https://i.imgur.com/wKBE16C.jpeg
+    
+    " alt="Product 2">
+    <p>Men Regular Shirt</p>
+  </div>
+  <div class="product-card">
+    <img src="
+https://images-cdn.ubuy.co.in/64dcc5de93f3bd694b590b5b-3-5-cu-ft-retro-mini-fridge.jpg
+    
+    " alt="Product 3">
+    <p>
+Retro Refrigerator Mini Fridge with Freezer
+      
+    </p>
+  </div>
+  <div class="product-card">
+    <img src="
+    
+https://i.imgur.com/MW2CO0F.jpeg
+    " alt="Product 4">
+    <p>
+Men Lightly Washed Baggy Jeans
+    </p>
+  </div>
+  <div class="product-card">
+    <img src="
+https://i.imgur.com/17R1dDb.jpeg
+    
+    " alt="Product 5">
+    <p>
+      
+      iphone 15 -128
+    </p>
+  </div>
+</div>
+ 
+ <hr>
+ 
+ <div class="container">
+        <!-- Left side for the image -->
+        <div class="left">
+          
+<a href="openProduct.html">
+          <button style="border:none;
+          background:none;">
+            <img class="football" src="
+https://i.imgur.com/LsSVNJ4.jpeg
+            "></button></a>
+        </div>
+
+        <!-- Right side for the product details -->
+
+<a href="openProduct.html">
+        <div class="right">
+            <h1 class="product">
+              
+ASUS ROG Zephyrus
+            </h1>
+            </a>
+            
+            <p class="ifa13">
+• 
+300Hz 15.6 FHD Gsync + Secondary Display</p>
+            <p class="fs6">
+•16gb ram </p>
+            <p><h2>(Pack of 1)</h2></p>
+
+            <div>
+                <h3 class="rating">Rating:</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star check"></span>
+                <span class="ff">+ 4</span>
+            </div>
+
+            <div>
+                <h2 class="Rs">Rs.89,000</h2>
+            </div>
+
+            <div class="quantity">
+                <select style="width:150px; height:80px; color:black; font-family: 'Arial';font-size:45px;">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div>
+<a href="destination.html">
+                <button class="bttn">Buy Now</button></a>
+                <button onclick="addToCarttt()" class="qwert">Add to Cart</button>
+            </div>
+        </div>
+    </div></button>
+<hr class="hr">
+<div class="container">
+        <div class="rt">
+                    <img class="we" src="
+https://i.imgur.com/rZnoiI3.jpeg
+                    ">
+                </div>
+                
+  <div class="right">
+             <h1 class="shoe">
+KENSTAR WASHING MACHINE
+                 
+             </h1>
+             <p class="ifa13">
+ • 
+MRP. ₹19,990
+(33% Off)
+             </p>
+             <p class="fs6">
+ • 
+IN STOCK</p>
+             <p><h2>•Discounted Price. ₹13,490
+             </h2></p>
+ 
+             <div>
+                 <h3 class="rating">Rating:</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star check"></span>
+                 <span class="ff">+ 4</span>
+             </div>
+ 
+             <div>
+                 <h2 class="Rs">Rs.13,490</h2>
+             </div>
+ 
+             <div class="quantity">
+                 <select style="width:150px; height:80px; color:black; font-family: 'Arial';font-size:45px;">
+                     <option selected value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                 </select>
+             </div>
+ 
+             <div>
+<a href="destination.html">
+                 <button onclick="alertt()" class="bttn">Buy Now</button></a>
+
+                 <button onclick="addToCartttt()"class="abcde">Add to Cart</button>
+             </div>
+         </div>
+     </div>
+ <hr class="hr">
+ 
+ <script>
+
+
+function addToCart(){
+  
+  document.getElementsByClassName("bttn2")[0].innerHTML="Added    &#9745;";
+
+}
+function addToCartt(){
+document.getElementsByClassName("bttn3")[0].innerHTML="Added    &#9745;";
+}
+
+function addToCarttt() {
+  document.getElementsByClassName("qwert")[0].innerHTML = "Added    &#9745;";
+}
+ 
+function addToCartttt() {
+  document.getElementsByClassName("abcde")[0].innerHTML = "Added    &#9745;";
+}
+   
+   
+ </script>
+</body>
+
+</html> 
